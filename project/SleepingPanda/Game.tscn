@@ -1,0 +1,945 @@
+[gd_scene load_steps=32 format=2]
+
+[ext_resource path="res://Assets/Theme/Theme.tres" type="Theme" id=1]
+[ext_resource path="res://Game.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Font/Prompt/Prompt-LightItalic.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Assets/Background.jpeg" type="Texture" id=4]
+[ext_resource path="res://Star.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Assets/waterSplash.png" type="Texture" id=6]
+[ext_resource path="res://Assets/waterfall.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Shaders/Slide.shader" type="Shader" id=8]
+[ext_resource path="res://Assets/water.png" type="Texture" id=9]
+[ext_resource path="res://Assets/waterMask.png" type="Texture" id=10]
+[ext_resource path="res://Assets/musicOn.png" type="Texture" id=11]
+[ext_resource path="res://Assets/Audio/Start.wav" type="AudioStream" id=12]
+[ext_resource path="res://Assets/branch1.png" type="Texture" id=13]
+[ext_resource path="res://Assets/leaf.png" type="Texture" id=14]
+[ext_resource path="res://Assets/legs.png" type="Texture" id=15]
+[ext_resource path="res://Assets/body.png" type="Texture" id=16]
+[ext_resource path="res://Assets/head.png" type="Texture" id=17]
+[ext_resource path="res://Assets/ZDark.png" type="Texture" id=18]
+[ext_resource path="res://Assets/branch2.png" type="Texture" id=19]
+[ext_resource path="res://Assets/branch3.png" type="Texture" id=20]
+
+[sub_resource type="Curve2D" id=1]
+bake_interval = 8.0
+_data = {
+"points": PoolVector2Array( 0, 0, 0, 0, 261.643, -83.2742, 0, 0, 0, 0, 248.347, -58.8974, 0, 0, 0, 0, 241.699, -34.5206, 0, 0, 0, 0, 237.267, -16.7921, 0, 0, 0, 0, 232.834, 3.15257, 0, 0, 0, 0, 227.294, 20.8811, 0, 0, 0, 0, 222.862, 39.7177, 0, 0, 0, 0, 217.322, 61.8784, 0, 0, 0, 0, 212.89, 82.9311, 0, 0, 0, 0, 205.134, 105.092, 0, 0, 0, 0, 198.181, 135.07, 0, 0, 0, 0, 189.593, 162.373, 0, 0, 0, 0, 185.283, 189.378, 0, 0, 0, 0, 175.217, 217.003, 0, 0, 0, 0, 167.46, 235.84, 0, 0, 0, 0, 159.704, 253.568, 0, 0, 0, 0, 159.704, 274.621, 0, 0, 0, 0, 153.056, 293.458, 0, 0, 0, 0, 153.056, 318.943, 0, 0, 0, 0, 154.914, 349.583, 0, 0, 0, 0, 145.555, 386.421, 0, 0, 0, 0, 131.516, 419.313, 0, 0, 0, 0, 120.987, 444.968, 0, 0, 0, 0, 97.5887, 506.803, 0, 0, 0, 0, 84.839, 548.944, 0, 0, 0, 0, 72.4357, 598.241, 0, 0, 0, 0, 61.9414, 628.261, 0, 0, 0, 0, 57.6419, 650.687 )
+}
+
+[sub_resource type="DynamicFont" id=2]
+use_filter = true
+font_data = ExtResource( 3 )
+
+[sub_resource type="ShaderMaterial" id=3]
+shader = ExtResource( 8 )
+shader_param/direction = Vector2( 0, -6 )
+shader_param/speed_scale = 0.0
+
+[sub_resource type="Animation" id=4]
+length = 2.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Button:rect_rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.7, 1.4, 2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 15.0, -15.0, 0.0 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Button:rect_scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1, 2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1.8, 1.8 ), Vector2( 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+length = 5.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Button:rect_rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 180.0 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Button:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Music:stream")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 12 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Music:playing")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 1 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Messages:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 1, 5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, false ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Messages:text")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 1, 2.2, 3.4 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ "Prontos", "Listos", "Kāishǐ!" ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Messages:rect_rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 1, 1.2, 1.3, 2.2, 2.4, 2.5, 3.4, 3.6, 4.2, 5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 15.0, 0.0, 0.0, 15.0, 0.0, 0.0, 15.0, 0.0, -180.0 ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Messages:modulate")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 4.2, 5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Messages:rect_scale")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 1, 1.1, 1.2, 1.3, 2.2, 2.3, 2.4, 2.5, 3.3, 3.4, 3.5, 5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 0.5, 0.5 ), Vector2( 1.5, 1.5 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 0.5, 0.5 ), Vector2( 1.5, 1.5 ), Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 0.5, 0.5 ), Vector2( 1.5, 1.5 ), Vector2( 4, 4 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Button:disabled")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Button:mouse_filter")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 1, 2 ]
+}
+
+[sub_resource type="Animation" id=6]
+length = 8.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Tree/Panda:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2, 4, 6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 263.924, 70.5614 ), Vector2( 263.924, 74.7426 ), Vector2( 263.924, 70.5614 ), Vector2( 263.924, 74.7426 ), Vector2( 263.924, 70.5614 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Tree/Panda:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 2, 4, 6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0, 0.0, 0.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Tree/Panda:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 2, 4, 6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1.09373 ), Vector2( 1, 1 ), Vector2( 1, 1.09373 ), Vector2( 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Tree/Panda/Body:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 2, 4, 6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, -97.0001 ), Vector2( 0, -101.152 ), Vector2( 0, -97.0001 ), Vector2( 0, -101.152 ), Vector2( 0, -97.0001 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Tree/Panda/Body:rotation_degrees")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 2, 4, 6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0, 0.0, 0.0 ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Tree/Panda/Body:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 2, 4, 6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.8, 0.8 ), Vector2( 0.777978, 0.966913 ), Vector2( 0.8, 0.8 ), Vector2( 0.777978, 0.966913 ), Vector2( 0.8, 0.8 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Tree/Panda/Head:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 2, 4, 6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 62, -50 ), Vector2( 65.4923, -43.1376 ), Vector2( 62, -50 ), Vector2( 65.4923, -43.1376 ), Vector2( 62, -50 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Tree/Panda/Head:rotation_degrees")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 2, 4, 6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -5.01293, 0.0, -5.01293, 0.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Tree/Panda/Head:scale")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 2, 4, 6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.8, 0.8 ), Vector2( 0.8, 0.8 ), Vector2( 0.8, 0.8 ), Vector2( 0.8, 0.8 ), Vector2( 0.8, 0.8 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Tree:rotation_degrees")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 3.3, 5.4, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.190172, 2.32112, 4.74632, 0.190172 ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Tree/L1:rotation_degrees")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0, 3, 6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 77.6532, 93.1435, 96.6765, 77.6532 ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Tree/L2:rotation_degrees")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 1, 2, 7 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 168.144, 153.778, 188.361 ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("Tree/L3:rotation_degrees")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0, 1, 3.3, 7.1, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -2.06745, 7.16694, 44.5219, 7.16694, -2.06745 ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("Tree/Branch1:rotation_degrees")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"times": PoolRealArray( 0, 2.6, 5, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -5.02047, -13.2409, 0.170246, -5.02047 ]
+}
+tracks/14/type = "value"
+tracks/14/path = NodePath("Tree/Branch1/L1:rotation_degrees")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/keys = {
+"times": PoolRealArray( 0, 1, 4, 7, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 105.0, 128.958, 90.5086, 128.958, 105.0 ]
+}
+tracks/15/type = "value"
+tracks/15/path = NodePath("Tree/Branch1/L2:rotation_degrees")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/keys = {
+"times": PoolRealArray( 0, 1.7, 4, 6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 44.9999, 80.4884, 41.569, 80.4884, 44.9999 ]
+}
+tracks/16/type = "value"
+tracks/16/path = NodePath("Tree/Branch1/L3:rotation_degrees")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/keys = {
+"times": PoolRealArray( 0, 2.9, 4.9, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 180.0, 140.512, 131.175, 180.0 ]
+}
+tracks/17/type = "value"
+tracks/17/path = NodePath("Tree/Branch2:rotation_degrees")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/keys = {
+"times": PoolRealArray( 0, 2.6, 5.1, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -16.3886, -19.6725, 0.0 ]
+}
+tracks/18/type = "value"
+tracks/18/path = NodePath("Tree/Branch2/L2:rotation_degrees")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/keys = {
+"times": PoolRealArray( 0, 3.6, 5.3, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 120.0, 153.337, 166.599, 120.0 ]
+}
+tracks/19/type = "value"
+tracks/19/path = NodePath("Tree/Branch2/L1:rotation_degrees")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/keys = {
+"times": PoolRealArray( 0, 1.6, 3.2, 5, 6.7, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 165.0, 214.942, 166.186, 189.508, 151.81, 165.0 ]
+}
+tracks/20/type = "value"
+tracks/20/path = NodePath("Tree/Panda/Head/ZZZ:emitting")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/21/type = "value"
+tracks/21/path = NodePath("../Background/Waterfall/waterSplash:frame")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/keys = {
+"times": PoolRealArray( 0, 0.4, 0.8, 1.2, 1.6, 2, 2.4, 2.8, 3.2, 3.6, 4, 4.4, 4.8, 5.2, 5.6, 6, 6.4, 6.8, 7.2, 7.6, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0 ]
+}
+
+[sub_resource type="Gradient" id=7]
+colors = PoolColorArray( 0.172549, 0.227451, 0.270588, 1, 1, 1, 1, 0 )
+
+[sub_resource type="GradientTexture" id=8]
+gradient = SubResource( 7 )
+
+[sub_resource type="Curve" id=9]
+_data = [ Vector2( 0, 0.5088 ), 0.0, -1.60705, 0, 0, Vector2( 1, 1 ), -5.49313, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=10]
+curve = SubResource( 9 )
+
+[sub_resource type="ParticlesMaterial" id=11]
+flag_disable_z = true
+spread = 90.0
+gravity = Vector3( 0, -100, 0 )
+angular_velocity = 2.8026e-044
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+angle = 66.0
+scale_curve = SubResource( 10 )
+color_ramp = SubResource( 8 )
+
+[node name="Game" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 1
+theme = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="WaterPath" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Center" type="Control" parent="WaterPath"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -20.0
+margin_top = -20.0
+margin_right = 20.0
+margin_bottom = 20.0
+
+[node name="Waterfall" type="Path2D" parent="WaterPath/Center"]
+position = Vector2( -180, -260 )
+z_index = 3
+curve = SubResource( 1 )
+
+[node name="Indicators" type="VBoxContainer" parent="WaterPath"]
+editor/display_folded = true
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 40.0
+margin_bottom = 49.0
+
+[node name="Score" type="HBoxContainer" parent="WaterPath/Indicators"]
+editor/display_folded = true
+margin_right = 85.0
+margin_bottom = 25.0
+
+[node name="Text" type="Label" parent="WaterPath/Indicators/Score"]
+margin_right = 54.0
+margin_bottom = 25.0
+custom_fonts/font = SubResource( 2 )
+text = "Puntos:"
+
+[node name="Number" type="Label" parent="WaterPath/Indicators/Score"]
+margin_left = 58.0
+margin_right = 69.0
+margin_bottom = 25.0
+custom_fonts/font = SubResource( 2 )
+text = "0"
+
+[node name="Difficulty" type="HBoxContainer" parent="WaterPath/Indicators"]
+editor/display_folded = true
+margin_top = 29.0
+margin_right = 85.0
+margin_bottom = 54.0
+
+[node name="Text" type="Label" parent="WaterPath/Indicators/Difficulty"]
+margin_right = 75.0
+margin_bottom = 25.0
+custom_fonts/font = SubResource( 2 )
+text = "Dificultad:"
+
+[node name="Number" type="Label" parent="WaterPath/Indicators/Difficulty"]
+margin_left = 79.0
+margin_right = 85.0
+margin_bottom = 25.0
+custom_fonts/font = SubResource( 2 )
+text = "1"
+
+[node name="Background" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="Limits" type="Control" parent="Background"]
+editor/display_folded = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 1
+
+[node name="Top" type="Control" parent="Background/Limits"]
+anchor_left = 0.5
+anchor_right = 0.5
+mouse_filter = 1
+
+[node name="Pos" type="Position2D" parent="Background/Limits/Top"]
+
+[node name="Bottom" type="Control" parent="Background/Limits"]
+editor/display_folded = true
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+mouse_filter = 1
+
+[node name="Pos" type="Position2D" parent="Background/Limits/Bottom"]
+
+[node name="Sky" type="TextureRect" parent="Background"]
+editor/display_folded = true
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -360.0
+margin_bottom = -640.0
+rect_min_size = Vector2( 340, 640 )
+texture = ExtResource( 4 )
+expand = true
+
+[node name="Star1" parent="Background/Sky" instance=ExtResource( 5 )]
+position = Vector2( 71.0797, 96.9268 )
+scale = Vector2( 0.4, 0.4 )
+z_index = 0
+
+[node name="Star2" parent="Background/Sky" instance=ExtResource( 5 )]
+modulate = Color( 1, 1, 1, 0.392157 )
+position = Vector2( 277.857, 408.385 )
+scale = Vector2( 0.7, 0.7 )
+z_index = 0
+
+[node name="Star3" parent="Background/Sky" instance=ExtResource( 5 )]
+position = Vector2( 129.236, 171.884 )
+scale = Vector2( 0.2, 0.2 )
+z_index = 0
+
+[node name="Star4" parent="Background/Sky" instance=ExtResource( 5 )]
+modulate = Color( 1, 1, 1, 0.392157 )
+position = Vector2( 7.75429, 377.368 )
+scale = Vector2( 0.2, 0.2 )
+z_index = 0
+
+[node name="Star5" parent="Background/Sky" instance=ExtResource( 5 )]
+modulate = Color( 1, 1, 1, 0.392157 )
+position = Vector2( 240.379, 487.219 )
+scale = Vector2( 0.2, 0.2 )
+z_index = 0
+
+[node name="Star6" parent="Background/Sky" instance=ExtResource( 5 )]
+position = Vector2( 84.0033, 571.222 )
+scale = Vector2( 0.2, 0.2 )
+z_index = 0
+
+[node name="Star7" parent="Background/Sky" instance=ExtResource( 5 )]
+position = Vector2( 240.379, 84.0033 )
+scale = Vector2( 0.2, 0.2 )
+z_index = 0
+
+[node name="Star8" parent="Background/Sky" instance=ExtResource( 5 )]
+modulate = Color( 1, 1, 1, 0.392157 )
+position = Vector2( 112.435, 15.5084 )
+scale = Vector2( 0.2, 0.2 )
+z_index = 0
+
+[node name="Star9" parent="Background/Sky" instance=ExtResource( 5 )]
+position = Vector2( 63.3256, 45.2326 )
+scale = Vector2( 0.1, 0.1 )
+z_index = 0
+
+[node name="Star10" parent="Background/Sky" instance=ExtResource( 5 )]
+modulate = Color( 1, 1, 1, 0.392157 )
+position = Vector2( 64.618, 105.973 )
+scale = Vector2( 0.1, 0.1 )
+z_index = 0
+
+[node name="Star11" parent="Background/Sky" instance=ExtResource( 5 )]
+position = Vector2( 25.8473, 385.123 )
+scale = Vector2( 0.1, 0.1 )
+z_index = 0
+
+[node name="Star12" parent="Background/Sky" instance=ExtResource( 5 )]
+modulate = Color( 1, 1, 1, 0.392157 )
+position = Vector2( 170.591, 319.212 )
+scale = Vector2( 0.1, 0.1 )
+z_index = 0
+
+[node name="Star13" parent="Background/Sky" instance=ExtResource( 5 )]
+modulate = Color( 1, 1, 1, 0.392157 )
+position = Vector2( 310.166, 95.6346 )
+scale = Vector2( 0.1, 0.1 )
+z_index = 0
+
+[node name="Star14" parent="Background/Sky" instance=ExtResource( 5 )]
+modulate = Color( 1, 1, 1, 0.392157 )
+position = Vector2( 333.428, 5.16962 )
+scale = Vector2( 0.1, 0.1 )
+z_index = 0
+
+[node name="Star15" parent="Background/Sky" instance=ExtResource( 5 )]
+position = Vector2( 302.412, 606.116 )
+scale = Vector2( 0.1, 0.1 )
+z_index = 0
+
+[node name="Waterfall" type="Control" parent="Background"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 1
+
+[node name="waterSplash" type="Sprite" parent="Background/Waterfall"]
+scale = Vector2( 0.6, 0.6 )
+z_index = 1
+texture = ExtResource( 6 )
+offset = Vector2( -300, -50 )
+hframes = 3
+frame = 1
+
+[node name="waterfall" type="Sprite" parent="Background/Waterfall"]
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 7 )
+offset = Vector2( -300, -600 )
+
+[node name="Shine" type="TextureRect" parent="Background/Waterfall"]
+light_mask = 2
+material = SubResource( 3 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -300.0
+margin_top = -800.0
+margin_right = 300.0
+margin_bottom = -160.0
+grow_horizontal = 2
+grow_vertical = 2
+rect_scale = Vector2( 0.8, 1.3 )
+texture = ExtResource( 9 )
+stretch_mode = 2
+
+[node name="Mask" type="Light2D" parent="Background/Waterfall"]
+position = Vector2( 0, 0.540344 )
+texture = ExtResource( 10 )
+offset = Vector2( -180, -360 )
+texture_scale = 0.6
+mode = 3
+range_layer_min = -1
+range_item_cull_mask = 2
+
+[node name="MusicToggle" type="Button" parent="."]
+visible = false
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -60.0
+margin_top = -56.0
+rect_scale = Vector2( 0.8, 0.8 )
+mouse_filter = 1
+mouse_default_cursor_shape = 2
+icon = ExtResource( 11 )
+flat = true
+
+[node name="Button" type="Button" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -86.0
+margin_top = -24.0
+margin_right = 86.0
+margin_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+text = "Comenzar"
+flat = true
+
+[node name="Messages" type="Label" parent="."]
+visible = false
+modulate = Color( 1, 1, 1, 0.999999 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -86.0
+margin_top = -24.0
+margin_right = 86.0
+margin_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Prontos"
+align = 1
+valign = 1
+
+[node name="UIAnimator" type="AnimationPlayer" parent="."]
+autoplay = "ButtonIdle"
+anims/ButtonIdle = SubResource( 4 )
+anims/Start = SubResource( 5 )
+
+[node name="PandainTree" type="Control" parent="."]
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -2.0
+margin_top = -24.0
+rect_scale = Vector2( 0.6, 0.6 )
+mouse_filter = 1
+
+[node name="SceneAnimator" type="AnimationPlayer" parent="PandainTree"]
+autoplay = "SleepIdle"
+anims/SleepIdle = SubResource( 6 )
+
+[node name="Tree" type="Sprite" parent="PandainTree"]
+editor/display_folded = true
+position = Vector2( 10, -160 )
+rotation = 0.0371428
+texture = ExtResource( 13 )
+offset = Vector2( 280, -16 )
+
+[node name="L1" type="Sprite" parent="PandainTree/Tree"]
+show_behind_parent = true
+position = Vector2( 470.058, -148.162 )
+rotation = 1.62568
+scale = Vector2( 0.649151, 0.649151 )
+texture = ExtResource( 14 )
+offset = Vector2( -14, -16 )
+
+[node name="L2" type="Sprite" parent="PandainTree/Tree"]
+show_behind_parent = true
+position = Vector2( 478.869, -145.669 )
+rotation = 2.80479
+scale = Vector2( 0.976211, 0.976211 )
+texture = ExtResource( 14 )
+offset = Vector2( -14, -16 )
+
+[node name="L3" type="Sprite" parent="PandainTree/Tree"]
+show_behind_parent = true
+position = Vector2( 450.389, -132.285 )
+rotation = 0.692335
+scale = Vector2( 0.415661, 0.415661 )
+texture = ExtResource( 14 )
+offset = Vector2( -14, -16 )
+
+[node name="Panda" type="Node2D" parent="PandainTree/Tree"]
+editor/display_folded = true
+position = Vector2( 263.924, 72.6496 )
+scale = Vector2( 1, 1.04681 )
+
+[node name="BackLegL" type="Sprite" parent="PandainTree/Tree/Panda"]
+position = Vector2( -35.3255, -111.007 )
+scale = Vector2( 0.8, 0.8 )
+z_index = -1
+texture = ExtResource( 15 )
+offset = Vector2( -2, 38 )
+hframes = 4
+frame = 1
+
+[node name="FrontLegL" type="Sprite" parent="PandainTree/Tree/Panda"]
+position = Vector2( 62.2686, -64.2179 )
+scale = Vector2( 0.8, 0.8 )
+z_index = -1
+texture = ExtResource( 15 )
+offset = Vector2( -2, 38 )
+hframes = 4
+frame = 3
+
+[node name="FrontLegR" type="Sprite" parent="PandainTree/Tree/Panda"]
+position = Vector2( 26.3444, -53.8909 )
+scale = Vector2( 0.8, 0.8 )
+texture = ExtResource( 15 )
+offset = Vector2( -2, 38 )
+hframes = 4
+frame = 2
+
+[node name="Body" type="Sprite" parent="PandainTree/Tree/Panda"]
+position = Vector2( 0, -99.0737 )
+scale = Vector2( 0.789001, 0.883362 )
+texture = ExtResource( 16 )
+
+[node name="BackLegR" type="Sprite" parent="PandainTree/Tree/Panda"]
+position = Vector2( -59.8737, -104.185 )
+scale = Vector2( 0.8, 0.8 )
+texture = ExtResource( 15 )
+offset = Vector2( 0, 38 )
+hframes = 4
+
+[node name="Head" type="Sprite" parent="PandainTree/Tree/Panda"]
+editor/display_folded = true
+position = Vector2( 63.7442, -46.5727 )
+rotation = -0.0436967
+scale = Vector2( 0.8, 0.8 )
+texture = ExtResource( 17 )
+offset = Vector2( 25, -25 )
+
+[node name="ZZZ" type="Particles2D" parent="PandainTree/Tree/Panda/Head"]
+position = Vector2( 54.4, -76.536 )
+amount = 3
+lifetime = 2.0
+speed_scale = 0.3
+process_material = SubResource( 11 )
+texture = ExtResource( 18 )
+
+[node name="Branch1" type="Sprite" parent="PandainTree/Tree"]
+editor/display_folded = true
+position = Vector2( 385.62, 46.5279 )
+rotation = -0.191976
+texture = ExtResource( 19 )
+offset = Vector2( 55, 16 )
+
+[node name="L1" type="Sprite" parent="PandainTree/Tree/Branch1"]
+show_behind_parent = true
+position = Vector2( 123.898, 10.0627 )
+rotation = 1.80311
+texture = ExtResource( 14 )
+offset = Vector2( -14, -16 )
+
+[node name="L2" type="Sprite" parent="PandainTree/Tree/Branch1"]
+show_behind_parent = true
+position = Vector2( 122.011, 10.0628 )
+rotation = 1.02052
+scale = Vector2( 0.56752, 0.56752 )
+texture = ExtResource( 14 )
+offset = Vector2( -14, -16 )
+
+[node name="L3" type="Sprite" parent="PandainTree/Tree/Branch1"]
+show_behind_parent = true
+position = Vector2( 92.4519, 33.3333 )
+rotation = 2.44416
+scale = Vector2( 0.56752, 0.56752 )
+texture = ExtResource( 14 )
+offset = Vector2( -14, -16 )
+
+[node name="Branch2" type="Sprite" parent="PandainTree/Tree"]
+editor/display_folded = true
+position = Vector2( 448.105, -41.2903 )
+rotation = -0.295231
+texture = ExtResource( 20 )
+offset = Vector2( 30, -13 )
+
+[node name="L1" type="Sprite" parent="PandainTree/Tree/Branch2"]
+show_behind_parent = true
+position = Vector2( 37.1052, -8.45532 )
+rotation = 3.00626
+scale = Vector2( 0.460782, 0.460782 )
+texture = ExtResource( 14 )
+offset = Vector2( -14, -16 )
+
+[node name="L2" type="Sprite" parent="PandainTree/Tree/Branch2"]
+show_behind_parent = true
+position = Vector2( 62.1465, -36.7161 )
+rotation = 2.57944
+scale = Vector2( 0.837766, 0.837766 )
+texture = ExtResource( 14 )
+offset = Vector2( -14, -16 )
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 12 )
+volume_db = -10.0
+
+[node name="RiddleTimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="resized" from="." to="." method="_on_Game_resized"]
+[connection signal="pressed" from="MusicToggle" to="." method="_on_MusicToggle_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="finished" from="Music" to="." method="_on_Music_finished"]
+[connection signal="timeout" from="RiddleTimer" to="." method="_on_RiddleTimer_timeout"]

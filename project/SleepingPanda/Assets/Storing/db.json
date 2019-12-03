@@ -1,0 +1,1490 @@
+[
+  {
+    "Id": 0,
+    "Ch": "Wǒ",
+    "Sp": "Yo",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 1
+  },
+  {
+    "Id": 1,
+    "Ch": "Nǐ",
+    "Sp": "Tú",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 1
+  },
+  {
+    "Id": 2,
+    "Ch": "Tā",
+    "Sp": "Él/ella",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 1
+  },
+  {
+    "Id": 3,
+    "Ch": "Men",
+    "Sp": "Pluralidad\ndel sujeto",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 1
+  },
+  {
+    "Id": 4,
+    "Ch": "Hǎo",
+    "Sp": "Bien, bueno",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 1
+  },
+  {
+    "Id": 5,
+    "Ch": "Shì",
+    "Sp": "Ser",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 1
+  },
+  {
+    "Id": 6,
+    "Ch": "Ma",
+    "Sp": "Partícula\nde pregunta",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 1
+  },
+  {
+    "Id": 7,
+    "Ch": "Ne",
+    "Sp": "Reciprocidad\nde pregunta",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 1
+  },
+  {
+    "Id": 8,
+    "Ch": "Bù",
+    "Sp": "No",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 1
+  },
+  {
+    "Id": 9,
+    "Ch": "Líng",
+    "Sp": "Cero",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 10,
+    "Ch": "Yī",
+    "Sp": "Uno",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 11,
+    "Ch": "Èr",
+    "Sp": "Dos",
+    "Repeats": 1,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 12,
+    "Ch": "Sān",
+    "Sp": "Tres",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 13,
+    "Ch": "Sì",
+    "Sp": "Cuatro",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 14,
+    "Ch": "Wŭ",
+    "Sp": "Cinco",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 15,
+    "Ch": "Liù",
+    "Sp": "Seis",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 16,
+    "Ch": "Qī",
+    "Sp": "Siete",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 17,
+    "Ch": "Bā",
+    "Sp": "Ocho",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 18,
+    "Ch": "Jiŭ",
+    "Sp": "Nueve",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 19,
+    "Ch": "Shí",
+    "Sp": "Diez",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 20,
+    "Ch": "Diàn huà",
+    "Sp": "Teléfono",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 3
+  },
+  {
+    "Id": 21,
+    "Ch": "Hào mǎ",
+    "Sp": "Número",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 3
+  },
+  {
+    "Id": 22,
+    "Ch": "Shǒu jī",
+    "Sp": "Celular",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 23,
+    "Ch": "De",
+    "Sp": "De",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 1
+  },
+  {
+    "Id": 24,
+    "Ch": "Bǎi",
+    "Sp": "Cien",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 25,
+    "Ch": "Diàn nǎo",
+    "Sp": "Computadora",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 3
+  },
+  {
+    "Id": 26,
+    "Ch": "Bǐ",
+    "Sp": "Lápiz",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 3
+  },
+  {
+    "Id": 27,
+    "Ch": "Shū",
+    "Sp": "Libro",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 3
+  },
+  {
+    "Id": 28,
+    "Ch": "Zhūo zi",
+    "Sp": "Mesa",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 3
+  },
+  {
+    "Id": 29,
+    "Ch": "Yǐ zi",
+    "Sp": "Silla",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 3
+  },
+  {
+    "Id": 30,
+    "Ch": "Zhè",
+    "Sp": "Este/esto",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 4
+  },
+  {
+    "Id": 31,
+    "Ch": "Nà",
+    "Sp": "Ese",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 4
+  },
+  {
+    "Id": 32,
+    "Ch": "Shén me",
+    "Sp": "Qué",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 4
+  },
+  {
+    "Id": 33,
+    "Ch": "Hé",
+    "Sp": "Y",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 4
+  },
+  {
+    "Id": 34,
+    "Ch": "Zhī",
+    "Sp": "Clasificador:\nobjetos finos,\nanimales",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 5
+  },
+  {
+    "Id": 35,
+    "Ch": "Běn",
+    "Sp": "Clasificador:\nlibros, cuadernos,\nrevistas y similares",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 5
+  },
+  {
+    "Id": 36,
+    "Ch": "Zhāng",
+    "Sp": "Clasificador:\nobjetos planos,\nmesas, papeles",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 5
+  },
+  {
+    "Id": 37,
+    "Ch": "Tái",
+    "Sp": "Clasificador:\nequipos electrónicos grandes,\ncomputadoras,\nmaquinarias",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 5
+  },
+  {
+    "Id": 38,
+    "Ch": "Ge",
+    "Sp": "Clasificador\nuniversal",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 5
+  },
+  {
+    "Id": 39,
+    "Ch": "Liǎng",
+    "Sp": "Dos",
+    "Repeats": 1,
+    "Similar": [],
+    "Class": 2
+  },
+  {
+    "Id": 40,
+    "Ch": "Bà ba",
+    "Sp": "Padre",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 6
+  },
+  {
+    "Id": 41,
+    "Ch": "Mā ma",
+    "Sp": "Madre",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 6
+  },
+  {
+    "Id": 42,
+    "Ch": "Gē ge",
+    "Sp": "Hermano mayor",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 6
+  },
+  {
+    "Id": 43,
+    "Ch": "Jǐe jie",
+    "Sp": "Hermana menor",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 6
+  },
+  {
+    "Id": 44,
+    "Ch": "Dì di",
+    "Sp": "Hermano menor",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 6
+  },
+  {
+    "Id": 45,
+    "Ch": "Mèi mei",
+    "Sp": "Hermana menor",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 6
+  },
+  {
+    "Id": 46,
+    "Ch": "Jiào",
+    "Sp": "Se llama",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 47,
+    "Ch": "Kǒu",
+    "Sp": "Clasificador:\nFamiliares",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 48,
+    "Ch": "Rén",
+    "Sp": "Persona",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 49,
+    "Ch": "Yoŭ",
+    "Sp": "Tener",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 50,
+    "Ch": "Sheí",
+    "Sp": "Quién",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 51,
+    "Ch": "Míng zi",
+    "Sp": "Nombre",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 52,
+    "Ch": "Māo",
+    "Sp": "Gato",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 8
+  },
+  {
+    "Id": 53,
+    "Ch": "Hái yǒu",
+    "Sp": "Además hay",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 54,
+    "Ch": "Gǒu",
+    "Sp": "Perro",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 8
+  },
+  {
+    "Id": 55,
+    "Ch": "Zhōng guó",
+    "Sp": "China",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 9
+  },
+  {
+    "Id": 56,
+    "Ch": "Láo shī",
+    "Sp": "Maestro",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 10
+  },
+  {
+    "Id": 57,
+    "Ch": "Dōu",
+    "Sp": "Todos",
+    "Repeats": 1,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 58,
+    "Ch": "Wèi",
+    "Sp": "Clasificador\ncon respeto",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 5
+  },
+  {
+    "Id": 59,
+    "Ch": "Jiā",
+    "Sp": "Casa",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 3
+  },
+  {
+    "Id": 60,
+    "Ch": "Jīn tiān",
+    "Sp": "Hoy",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 61,
+    "Ch": "Míng tiān",
+    "Sp": "Mañana",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 62,
+    "Ch": "Zuó tiān",
+    "Sp": "Ayer",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 63,
+    "Ch": "Hòu tīan",
+    "Sp": "Pasado mañana",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 64,
+    "Ch": "Qián tiān",
+    "Sp": "Anteayer",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 65,
+    "Ch": "Xīng qí",
+    "Sp": "Semana",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 66,
+    "Ch": "Nián",
+    "Sp": "Año",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 67,
+    "Ch": "Yuè",
+    "Sp": "Mes",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 68,
+    "Ch": "Rì",
+    "Sp": "Día",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 69,
+    "Ch": "Shēng rì",
+    "Sp": "Cumpleaños",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 70,
+    "Ch": "Hào",
+    "Sp": "Fecha",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 71,
+    "Ch": "Jĭ",
+    "Sp": "Cuanto",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 72,
+    "Ch": "Shàng wŭ",
+    "Sp": "La mañana",
+    "Repeats": 1,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 73,
+    "Ch": "Zaŏ shang",
+    "Sp": "La mañana",
+    "Repeats": 1,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 74,
+    "Ch": "Zhōng wŭ",
+    "Sp": "Mediodía",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 75,
+    "Ch": "Xìa wŭ",
+    "Sp": "Tarde",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 76,
+    "Ch": "Wăn shang",
+    "Sp": "Noche",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 77,
+    "Ch": "Diăn zhōng",
+    "Sp": "En punto",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 78,
+    "Ch": "Bàn",
+    "Sp": "Y media",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 79,
+    "Ch": "Yí kè",
+    "Sp": "Y cuarto",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 80,
+    "Ch": "Chà … fēn",
+    "Sp": "Falta … minutos",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 81,
+    "Ch": "Xiàn zaì",
+    "Sp": "Ahora",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 82,
+    "Ch": "Xià bān",
+    "Sp": "Terminar\nhorario de trabajo",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 12
+  },
+  {
+    "Id": 83,
+    "Ch": "Shàng bān",
+    "Sp": "Empezar\nhorario de trabajo",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 12
+  },
+  {
+    "Id": 84,
+    "Ch": "Meĭ tiān",
+    "Sp": "Todos\nlos días",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 85,
+    "Ch": "Daò",
+    "Sp": "Hasta/llegar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 86,
+    "Ch": "Shí jiān",
+    "Sp": "Tiempo",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 87,
+    "Ch": "Diăn",
+    "Sp": "Hora",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 88,
+    "Ch": "Fēn",
+    "Sp": "Minuto",
+    "Repeats": 1,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 89,
+    "Ch": "Fēn zhōng",
+    "Sp": "Minuto",
+    "Repeats": 1,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 90,
+    "Ch": "Guó jīa",
+    "Sp": "País",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 91,
+    "Ch": "Meĭ guó",
+    "Sp": "USA",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 92,
+    "Ch": "Yīng guó",
+    "Sp": "Inglaterra",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 93,
+    "Ch": "Wū lā guī",
+    "Sp": "Uruguay",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 94,
+    "Ch": "Ā gēn tíng",
+    "Sp": "Argentina",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 95,
+    "Ch": "Bā xī",
+    "Sp": "Brasil",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 96,
+    "Ch": "Rì bĕn",
+    "Sp": "Japón",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 97,
+    "Ch": "Guójí",
+    "Sp": "Nacionalidad",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 98,
+    "Ch": "Suì",
+    "Sp": "Año de edad",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 99,
+    "Ch": "Duì bù qĭ",
+    "Sp": "Disculpe",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 100,
+    "Ch": "Nă",
+    "Sp": "Cuál",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 101,
+    "Ch": "Năr",
+    "Sp": "Dónde",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 102,
+    "Ch": "Haĭ guān",
+    "Sp": "Aduana",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 103,
+    "Ch": "Geĭ",
+    "Sp": "Dar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 104,
+    "Ch": "Xìng",
+    "Sp": "Apellido",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 105,
+    "Ch": "Qĭng",
+    "Sp": "Por favor",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 106,
+    "Ch": "Zaì shuō\nyíbiàn",
+    "Sp": "Repetir\nuna vez más",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 107,
+    "Ch": "Hĕn",
+    "Sp": "Muy",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 108,
+    "Ch": "Yĕ",
+    "Sp": "También",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 109,
+    "Ch": "Hùzhaò",
+    "Sp": "Pasaporte",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 110,
+    "Ch": "Beĭjīng",
+    "Sp": "Bei Jing",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 111,
+    "Ch": "DÌfāng",
+    "Sp": "Lugar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 112,
+    "Ch": "Laí",
+    "Sp": "Venir",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 113,
+    "Ch": "Cóng",
+    "Sp": "Desde",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 114,
+    "Ch": "Dànshì",
+    "Sp": "Pero",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 115,
+    "Ch": "Kĕyĭ",
+    "Sp": "Poder",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 116,
+    "Ch": "Cānjiā",
+    "Sp": "Participar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 117,
+    "Ch": "Paìduì",
+    "Sp": "Fiesta",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 118,
+    "Ch": "Ba",
+    "Sp": "Partícula\nde sugerencia",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 119,
+    "Ch": "Yĭhoù",
+    "Sp": "Después",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 120,
+    "Ch": "Zuò",
+    "Sp": "Hacer",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 121,
+    "Ch": "Yoúyŏng",
+    "Sp": "Nadar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 122,
+    "Ch": "Cì",
+    "Sp": "Vez",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 123,
+    "Ch": "Yìqĭ",
+    "Sp": "Junto",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 124,
+    "Ch": "Qù",
+    "Sp": "Ir",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 125,
+    "Ch": "Yaò",
+    "Sp": "Querer",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 7
+  },
+  {
+    "Id": 126,
+    "Ch": "Kaīshĭ",
+    "Sp": "Empezar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 127,
+    "Ch": "Meíguānxi",
+    "Sp": "No pasa nada",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 128,
+    "Ch": "Búkèqì",
+    "Sp": "De nada",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 129,
+    "Ch": "Xièxie",
+    "Sp": "Gracias",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 130,
+    "Ch": "Xuéshēng",
+    "Sp": "Alumno",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 10
+  },
+  {
+    "Id": 131,
+    "Ch": "Bān",
+    "Sp": "Clase",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 10
+  },
+  {
+    "Id": 132,
+    "Ch": "Zaì",
+    "Sp": "Estar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 133,
+    "Ch": "Zaŏ shàng haŏ",
+    "Sp": "Buen día",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 134,
+    "Ch": "Gēn",
+    "Sp": "Con",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 135,
+    "Ch": "Xīn",
+    "Sp": "Nuevo",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 136,
+    "Ch": "Zhèr",
+    "Sp": "Aquí",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 137,
+    "Ch": "Nàr",
+    "Sp": "Ahí",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 138,
+    "Ch": "Jièshaò",
+    "Sp": "Presentar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 139,
+    "Ch": "Yí xià",
+    "Sp": "un poco",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 140,
+    "Ch": "Gāoxìng",
+    "Sp": "Contento",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 141,
+    "Ch": "Rènshi",
+    "Sp": "Conocer",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 142,
+    "Ch": "Dàjiā",
+    "Sp": "Todos",
+    "Repeats": 1,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 143,
+    "Ch": "Tóngxué",
+    "Sp": "Compañero\nde clase",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 10
+  },
+  {
+    "Id": 144,
+    "Ch": "Zìwŏ jièshaò",
+    "Sp": "Presentar\nuno mismo",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 145,
+    "Ch": "Zhù",
+    "Sp": "Vivir",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 146,
+    "Ch": "Shoŭdū",
+    "Sp": "Capital",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 147,
+    "Ch": "Móngdéweídeyă",
+    "Sp": "Montevideo",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 148,
+    "Ch": "Shĕng",
+    "Sp": "Provincia,\nDepartamento",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 149,
+    "Ch": "Shāngdiàn",
+    "Sp": "Tienda",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 3
+  },
+  {
+    "Id": 150,
+    "Ch": "Maĭ",
+    "Sp": "Comprar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 151,
+    "Ch": "Zhaŏ",
+    "Sp": "Buscar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 152,
+    "Ch": "Dà",
+    "Sp": "Grande",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 153,
+    "Ch": "Jiē",
+    "Sp": "Calle",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 154,
+    "Ch": "Xiăng",
+    "Sp": "Pensar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 155,
+    "Ch": "Xué",
+    "Sp": "Aprender",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 10
+  },
+  {
+    "Id": 156,
+    "Ch": "Yīngwén",
+    "Sp": "Inglés",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 13
+  },
+  {
+    "Id": 157,
+    "Ch": "Jiāo",
+    "Sp": "Enseñar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 10
+  },
+  {
+    "Id": 158,
+    "Ch": "Shíhou",
+    "Sp": "Momento",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 159,
+    "Ch": "Dă",
+    "Sp": "Pegar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 160,
+    "Ch": "Jiàn",
+    "Sp": "Ver",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 161,
+    "Ch": "Shaōdĕng",
+    "Sp": "Espere brevemente",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 162,
+    "Ch": "Jiù",
+    "Sp": "Justamente",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 163,
+    "Ch": "Cuò le",
+    "Sp": "Equivocado",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 164,
+    "Ch": "Huí",
+    "Sp": "Volver/devolver",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 165,
+    "Ch": "Jiē",
+    "Sp": "Contestar",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 166,
+    "Ch": "Qĭng wèn",
+    "Sp": "¿Puedo preguntarte?",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 167,
+    "Ch": "Weí",
+    "Sp": "Hola (Por teléfono)",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 168,
+    "Ch": "Zaì",
+    "Sp": "Otra vez",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 169,
+    "Ch": "Zaìjiàn",
+    "Sp": "Adiós",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 11
+  },
+  {
+    "Id": 170,
+    "Ch": "Liúhuà",
+    "Sp": "Dejar mensaje",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 171,
+    "Ch": "Xuéxiaò",
+    "Sp": "Escuela",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 3
+  },
+  {
+    "Id": 172,
+    "Ch": "Péngyou",
+    "Sp": "Amigo/a",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 10
+  },
+  {
+    "Id": 173,
+    "Ch": "Yánsè",
+    "Sp": "Color",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 17
+  },
+  {
+    "Id": 174,
+    "Ch": "Baísè",
+    "Sp": "Blanco",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 17
+  },
+  {
+    "Id": 175,
+    "Ch": "Heīsè",
+    "Sp": "Negro",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 17
+  },
+  {
+    "Id": 176,
+    "Ch": "Hóngsè",
+    "Sp": "Rojo",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 17
+  },
+  {
+    "Id": 177,
+    "Ch": "Lǜsè",
+    "Sp": "Verde",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 17
+  },
+  {
+    "Id": 178,
+    "Ch": "Huángsè",
+    "Sp": "Amarillo",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 17
+  },
+  {
+    "Id": 179,
+    "Ch": "Lánsè",
+    "Sp": "Azul",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 17
+  },
+  {
+    "Id": 180,
+    "Ch": "Juéde",
+    "Sp": "Parece",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 181,
+    "Ch": "Haíbúcuò",
+    "Sp": "No está mal",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 14
+  },
+  {
+    "Id": 182,
+    "Ch": "Diànyuán",
+    "Sp": "Empleado",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 10
+  },
+  {
+    "Id": 183,
+    "Ch": "Tèbié",
+    "Sp": "Especialmente",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 184,
+    "Ch": "Shénme yàng",
+    "Sp": "Qué tipo",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  },
+  {
+    "Id": 185,
+    "Ch": "Xiē",
+    "Sp": "Algunos",
+    "Repeats": 0,
+    "Similar": [],
+    "Class": 16
+  }
+]
